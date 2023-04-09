@@ -13,7 +13,7 @@ async function ProductPage({ params: { id } }: Props) {
     const product = await res.json();
 
     return (
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 px-4 mt-24 pb-10">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 px-4 mt-48 pb-10">
         <ProductImage product={product} />
 
         <div className="divide-y">
